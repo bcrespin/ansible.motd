@@ -1,0 +1,3 @@
+---
+# defaults file for boxeman.motd
+boxeman_motd_file: '/etc/motd'

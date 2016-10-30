@@ -1,0 +1,4 @@
+---
+- name: Build motd file
+  template: src=motd.j2 dest={{ boxeman_motd_file }}
+  tags: [ 'configuration','motd' ]
