@@ -2,7 +2,7 @@
 
 ### ansible managed ### maybe below infos not up to date...
 
-Welcome to host : {{ ansible_fqdn }}
+Welcome to host : {{ ansible_hostname }}
 {%if  ansible_system == 'FreeBSD' %}OS : {{ ansible_distribution }} - {{ ansible_distribution_release }} - {{ansible_architecture }}
 {%else %}OS : {{ ansible_distribution }} - {{ ansible_distribution_release }}/{{ ansible_distribution_version }} - {{ansible_architecture }} 
 {% endif %}Kernel : {{ ansible_kernel }}
